@@ -1,8 +1,8 @@
- body{
+body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#f4f4f4;
+  background-color:#930000;
 }
 
 /* Global */
@@ -19,7 +19,7 @@ ul{
 
 .button_1{
   height:38px;
-  background:#e8491d;
+  background:#645452;
   border:0;
   padding-left: 20px;
   padding-right:20px;
@@ -36,7 +36,7 @@ ul{
 
 /* Header **/
 header{
-  background:#35424a;
+  background:#8fbc8f;
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
@@ -70,7 +70,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color:#e8491d;
+  color:#000000;
   font-weight:bold;
 }
 
@@ -82,7 +82,7 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../img/showcase.img') no-repeat 0 -400px;
+  background:url('../img/th (2).jpg') no-repeat;
   text-align:center;
   color:#ffffff;
 }
@@ -101,7 +101,7 @@ header a:hover{
 #newsletter{
   padding:15px;
   color:#ffffff;
-  background:#35424a
+  background:#8fbc8f
 }
 
 #newsletter h1{
@@ -203,5 +203,6 @@ footer{
     margin-bottom:5px;
   }
 }
+
 
          
