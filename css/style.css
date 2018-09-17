@@ -82,7 +82,8 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../img/th (2).jpg') no-repeat;
+  background:url('../img/christmas-towns-13.jpg') no-repeat; 
+  background-size:cover;
   text-align:center;
   color:#ffffff;
 }
@@ -152,7 +153,6 @@ article#main-col{
   float:left;
   width:65%;
 }
-
 /* Services */
 ul#services li{
   list-style: none;
@@ -165,8 +165,8 @@ ul#services li{
 footer{
   padding:20px;
   margin-top:20px;
-  color:#ffffff;
-  background-color:#e8491d;
+  color:#fffff;
+  background-color:#8fbc8f; 
   text-align: center;
 }
 
