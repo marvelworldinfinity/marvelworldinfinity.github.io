@@ -1,8 +1,12 @@
-/**
-* @ Author Elyse Ayala
-* @ Version: 1.0
-* @ Date: 5/17/19
-*/
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Processing Demo</title>
+<script type="text/javascript" src="processing.js"></script>
+</head>
+<body>
+<script type="text/processing">
+
 
 PImage backImg;  
 PImage playerImg;
@@ -66,3 +70,9 @@ void mousePressed() {
     gamestate = 0;
   }
 }
+
+
+</script>
+<canvas id="sketch" style="border: 1px solid black;"></canvas>
+</body>
+</html
