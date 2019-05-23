@@ -15,10 +15,10 @@ PImage startImg;
 int gamestate = 0, score = 0, highScore = 0, x = -200, y, vy = 0, wx[] = new int[2], wy[] = new int[2]; 
 void setup() {
   
-  backImg = loadImage("./backImg.png");
-  playerImg = loadImage("./playerImg.png");
-  wallImg = loadImage("./wallImg.png"); 
-  startImg = loadImage("./startImg.png"); 
+  backImg = loadImage("./img/backImg.png");
+  playerImg = loadImage("./img/playerImg.png");
+  wallImg = loadImage("./img/wallImg.png"); 
+  startImg = loadImage("./img/startImg.png"); 
   
   
   size(600,800);
